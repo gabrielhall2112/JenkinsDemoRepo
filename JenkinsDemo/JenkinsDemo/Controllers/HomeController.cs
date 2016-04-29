@@ -15,7 +15,7 @@ namespace JenkinsDemo.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.-BREAKERROR "; //nice place to put a test error    -BREAKERROR
+            ViewBag.Message = "Your application description page."; //nice place to put a test error    -BREAKERROR
 
             return View();
         }
