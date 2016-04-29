@@ -15,14 +15,14 @@ namespace JenkinsDemo.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page. -BREAKERROR1"; //nice place to put a test error    -BREAKERROR
+            ViewBag.Message = "Your application description page."; //nice place to put a test error    -BREAKERROR
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page. -BREAKERROR2";
+            ViewBag.Message = "Your contact page.";
 
             return View();
         }
